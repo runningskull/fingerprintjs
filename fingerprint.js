@@ -256,4 +256,4 @@
     module.exports = Fingerprint;
   }
   scope.Fingerprint = Fingerprint;
-})(window);
+})(typeof module === "object" && typeof module.exports === "object" ? module.exports : window);
